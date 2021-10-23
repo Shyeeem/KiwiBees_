@@ -1,0 +1,300 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+div{
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/*HEADER STYLING*/
+
+header{
+    background-image:url(city.jpg),
+     linear-gradient(45deg, rgba(255, 255, 0, 0.75) 65%, #7038a3 35%);
+    background-blend-mode: overlay, overlay;
+    padding-top: 16%;
+    padding-bottom: 12%;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header h1{
+    font-size: 48px;
+    color: black;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family: 'Indie Flower', serif;
+}
+
+header h2{
+    color:rgb(37, 32, 32);
+    font-weight: normal;
+    font-size: 60px;   
+    margin-bottom: 20px;
+    font-family: 'Architects Daughter', serif;
+}
+
+header h3{
+    font-size: 32px;
+    font-family: 'Indie Flower', serif;
+    
+}
+
+header hr{
+    margin-top: 3%;
+    border: 1px solid#0a0909;
+    border-radius: 3px;
+    width: 50%;
+}
+
+header p{
+    width: 500px;
+    padding-top: 2%;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: 'Architects Daughter', serif;
+}
+
+header h1 a{
+    color: black;
+}
+
+
+/*NAVIGATION BAR STYLING*/
+header ul{
+    list-style:none;
+    background-color:#393333;
+    position: fixed;
+    top: 3.5%;
+    right:0;
+    width: 27%;
+    z-index: 2;  /* Prevents navigation bar from overlapping with <p> elements */
+}
+
+header li{
+    float: left;
+    font-family: sans-serif;
+}
+
+header li a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 20px 34px;
+    text-decoration: none;
+    font-family: 'Gluten', serif;
+  }
+  header li a:hover{
+    background-color:black;
+  }
+
+
+  /*PERSONAL WORKS SECTION STYLING*/
+
+  #personal{
+      background-color: #393333;
+      overflow: hidden;
+      height: 1350px;
+      padding-bottom: 30px;
+  }
+
+  #personal h2{
+      font-size: 32px;
+      padding-top: 30px;
+      font-family: 'Rampart One', cursive;
+  }
+
+  #personal p{
+      font-size: 20px;
+      margin-bottom: 30px;
+      width: 700px;
+      padding-top: 10px;
+      font-family: 'Architects Daughter', serif;
+  }
+
+  /*OUTSIDERS SUB-SECTION STYLING*/
+
+#outsiders{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    font-family: 'Gluten', serif;
+}
+
+#outsiders h3{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+#outsiders p{
+    font-size: 22px;
+    width: 550px;
+    float: right;
+    margin-right: 10%;
+    padding-top: 5%;
+    font-family: 'Architects Daughter', serif;
+}
+
+  /*LOVE BITES SUB-SECTION STYLING*/
+
+  #lovebites{
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Gluten', serif;
+}
+
+#lovebites h3{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+#lovebites p{
+    font-size: 22px;
+    width: 550px;
+    margin-left: 10%;
+    padding-top: 5%;
+    font-family: 'Architects Daughter', serif;
+}
+
+#lovebites figure{
+    float: right;
+    margin-bottom: 20%;
+}
+
+  /*SHORT STORIES SECTION STYLING*/
+
+  #shorts{
+    background-color: #585858;
+}
+
+#shorts h2{
+    font-size:32px;
+    padding-left: 17%;
+    padding-top: 30px;
+    font-family: 'Rampart One', cursive;
+}
+
+#shorts p{
+    padding-left: 17%;
+    font-size:20px;
+    width: 700px;
+    padding-top: 10px;
+    font-family: 'Architects Daughter', serif;
+}
+
+  .stori{
+    width: 260px;
+    height: 260px;
+    margin: 30px 20px;
+    float: left;
+    background-color: #66aacc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba( 0, 0, 0, 0.75 );
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gluten', serif;
+  }
+
+  #shorts div{
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+/*FOOTER STYLINGS*/
+
+  footer {
+    background-color: #4d4d4d;
+    color: white;
+    text-align: center;
+}
+
+footer h6, footer p {
+    margin-bottom: 20px;
+}
+
+footer h6 {
+    font-family: 'Indie Flower', serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+footer h6 a {
+    color: white;
+}
+
+footer a {
+    color: #bbeeff;
+}
+
+footer p{
+    font-family: 'Indie Flower', serif;
+}
+
+footer p a{
+    font-family: 'Indie Flower', serif;
+}
+
+#back{
+    font-family: 'Indie Flower', serif;
+}
+
+#socials{
+    margin-left: 80%;
+    margin-right: 0;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*SOCIAL MEDIA BUTTONS*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+    padding: 20px 23px;
+  }
+
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
