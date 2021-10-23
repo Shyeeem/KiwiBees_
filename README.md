@@ -2,4 +2,4 @@ This is just a fun little exercise for myself. I'm not the best at HTML and CSS,
 
 A prototype for my portfolio site. 
 
-You can access this at: 
+You can access this at: https://shyeeem.github.io/KiwiBees_/
